@@ -1,0 +1,43 @@
+html{
+    background-color: whitesmoke;
+    font-family: Tahoma, sans-serif;
+    padding: 5em ;
+}
+
+body{
+    max-width: 1500px;
+    width: 60%;
+    background-color: white;
+    padding: 2em ;
+    margin: auto;
+    border: 1px solid #e7e7e7;
+}
+svg, button, a, span{
+    display: inline-block;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+nav.scoreMenu{
+    border-bottom: 1px solid whitesmoke;
+    text-align: right;
+}
+
+nav.scoreMenu svg{
+    height: 1em ;
+    width: auto;
+}
+
+nav.scoreMenu a.score{
+    background-color: #363636;
+    color: white;
+}
+
+/*FastClass*/
+
+.defaultButton{
+    padding: 0.3em 1em ;
+    border-radius: 0.5em ;
+    margin: 0.2em 0.5em ;
+}

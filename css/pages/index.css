@@ -1,0 +1,5 @@
+a.game .gameImage{
+    height: 10em;
+    width: 10em ;
+    background-size: cover;
+}

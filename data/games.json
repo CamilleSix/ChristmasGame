@@ -1,0 +1,24 @@
+{
+  "call-me-by-my-name": {
+    "name": "Call me by my name",
+    "score": {
+      "win": 20,
+      "loose": 1
+    }
+  },
+  "la-plus-belle-ville": {
+    "name": "GeoGuessr",
+    "score": {
+      "win": 20,
+      "loose": 1
+    }
+  },
+  "durien": {
+    "name": "Lutte, Animal, Fruit",
+    "score": {
+      "win": 10,
+      "loose": 2
+    }
+  }
+
+}
