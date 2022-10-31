@@ -15,9 +15,26 @@
   },
   "durien": {
     "name": "Lutte, Animal, Fruit",
+    "description": "Trouve la solution à cette énigme.",
     "score": {
       "win": 10,
       "loose": 2
+    },
+    "input": {
+      "kind" : "text",
+      "placeholder" : "Ma réponse"
+    }
+  },
+  "futur-dev": {
+    "name": "Expression régulière",
+    "description": "Trouve la signification de cette expression régulière.",
+    "score": {
+      "win": 15,
+      "loose": 2
+    },
+    "input": {
+      "kind" : "text",
+      "placeholder" : "Ma réponse"
     }
   }
 

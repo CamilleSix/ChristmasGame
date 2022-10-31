@@ -32,8 +32,8 @@ class Page
     public function menu(){
         $this->menu = "
 <nav class='scoreMenu'>
-<a href='historique' class='score defaultButton'><span>{$this->score}</span> ".svg("rabbit", "white")."</a>
-<a href='historique'>Choisir mon cadeau</a>
+<a href='historique' class='score defaultButton'>".svg("rabbit", "white")." <span>{$this->score}</span></a>
+<a href='historique' class='pickMyGift defaultButton'>".svg("gift", "white")." Choisir mon cadeau</a>
 ".svg("question-circle", "red")."
 </nav>
 " ;
