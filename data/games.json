@@ -4,6 +4,10 @@
     "score": {
       "win": 20,
       "loose": 1
+    },
+    "input": {
+      "kind" : "hidden",
+      "placeholder" : "Ma réponse"
     }
   },
   "la-plus-belle-ville": {
@@ -36,6 +40,19 @@
       "kind" : "text",
       "placeholder" : "Ma réponse"
     }
+  },
+  "starters": {
+    "name": "Le grand choix",
+    "description": "Parce qu'un seul est digne d'être choisi.",
+    "score": {
+      "win": 10,
+      "loose": 10
+    },
+    "input": {
+      "kind" : "text",
+      "placeholder" : "Ma réponse"
+    }
   }
+
 
 }
