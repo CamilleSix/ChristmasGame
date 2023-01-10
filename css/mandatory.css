@@ -17,6 +17,17 @@ body{
     margin: auto;
     border: 1px solid #e7e7e7;
 }
+html.inIframe{
+    padding: 0 ;
+}
+html.inIframe body{
+    max-width: none;
+    width: 100%;
+    background-color: white;
+    padding: 1em ;
+    margin: auto;
+    border: 0 solid;
+}
 svg, button, a, span{
     display: inline-block;
     vertical-align: middle;
@@ -32,27 +43,15 @@ ul{
     margin: 0;
     padding: 0;
 }
-nav.scoreMenu{
+nav.menu{
     border-bottom: 1px solid whitesmoke;
-    text-align: right;
+    text-align: center;
 }
 
-nav.scoreMenu svg{
-    height: 1em ;
-    width: auto;
-    margin-right: 0.5em;
-    margin-top: -0.2em ;
+nav.menu img{
+    height: 12em ;
 }
 
-nav.scoreMenu a.score{
-    background-color: #363636;
-    color: white;
-}
-
-.pickMyGift{
-    background-color: #995cb7;
-    color: white;
-}
 
 /*FastClass*/
 
@@ -66,6 +65,9 @@ nav.scoreMenu a.score{
     display: inline-block;
     vertical-align: middle;
 }
+.db{
+    display: block;
+}
 
 .w30{width: 30%;}
 .w70{width: 70%;}
@@ -73,41 +75,6 @@ nav.scoreMenu a.score{
 .green{color :#2ea17a}
 .red{color: #851e36}
 
-/*Page des jeux*/
-nav.backToIndex{
-    padding-top: 0.5em;
-    margin-bottom: 2em ;
-}
-nav.backToIndex a{
-    color: #545454;
-}
-
-nav.backToIndex svg{
-    height: 1em ;
-    margin-top: -0.1em ;
-    margin-right: 0.8em ;
-}
-
-.scoreList{
-    box-sizing: border-box;
-    background-color: #e7e7e7;
-    padding: 0.5em 1em ;
-    color: #545454;
-    border-radius: 0.3em ;
-
-}
-
-.scoreList li{
-    list-style: none;
-    padding: 0.3em 0;
-    display: block;
-}
-
-
-.scoreList svg{
-    height: 1em ;
-    margin-top: -0.2em ;
-}
 
 section.game{
     padding: 3em 0;

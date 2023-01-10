@@ -1,102 +1,106 @@
 <?php
 
-class Page
-{
-    public $json ;
-    public $meta;
-    public $title ;
+    class Page
+    {
+        public $json ;
+        public $meta;
+        public $title ;
 
-    public $menu;
-    public $score = 0 ;
+        public $menu;
+        public $score = 0 ;
 
-    public $content ;
+        public $content ;
 
-    public $footer;
-    public $css = ["mandatory"] ;
-    public $beforePath = '' ;
-    public $script ;
+        public $footer;
+        public $css = ["mandatory"] ;
+        public $beforePath = '' ;
+        public $script ;
 
-    public $pageId = 'index' ;
-    public $pageConfig ;
+        public $pageId = 'index' ;
+        public $pageConfig ;
 
-    public $searchPath = 'pages' ;
-    public $isGame = false ;
+        public $searchPath = 'pages' ;
+        public $isGame = false ;
 
-    public function __construct() {
+        public function __construct() {
 
-        $this->json = new Json() ;
-        $this->pageAccess() ;
+            $this->json = new Json() ;
+            $this->pageAccess() ;
 
-    }
+        }
 
-    public function menu(){
-        $this->menu = "
-<nav class='scoreMenu'>
-<a href='historique' class='score defaultButton'>".svg("rabbit", "white")." <span>{$this->score}</span></a>
-<a href='historique' class='pickMyGift defaultButton'>".svg("gift", "white")." Choisir mon cadeau</a>
-".svg("question-circle", "red")."
+        public function menu(){
+            $this->menu = "
+<nav class='menu'>
+<img src='images/logo.jpg' class='logo'>
 </nav>
 " ;
-    }
-
-
-    public function pageAccess(){
-
-        $file = 'pages' ;
-        if ($this->isGame){
-            $this->pageId = $_GET['page'] ;
-
-        } elseif (!empty($_GET['game'])) {
-            $this->beforePath = "../" ;
-            $this->pageId = $_GET['game'];
-            $file = 'games' ;
         }
 
-        $access = $this->json->getFile($file) ;
 
-        if (isset($access->{$this->pageId})){
-            $this->pageConfig =$access->{$this->pageId} ;
-            $this->buildPageHtml() ;
-        } else {
-            $this->content ="Cette page n'existe pas" ;
+        public function pageAccess(){
+
+            $file = 'pages' ;
+            if ($this->isGame){
+                $this->pageId = $_GET['page'] ;
+
+            } elseif (!empty($_GET['game'])) {
+                $this->beforePath = "../" ;
+                $this->pageId = $_GET['game'];
+                $file = 'games' ;
+            }
+
+            $access = $this->json->getFile($file) ;
+
+            if (isset($access->{$this->pageId})){
+                $this->pageConfig =$access->{$this->pageId} ;
+                $this->buildPageHtml() ;
+            } else {
+                $this->content ="Cette page n'existe pas" ;
+            }
+
         }
 
-    }
+        function buildPageHtml(){
 
-    function buildPageHtml(){
+            $html = file_get_contents("html/{$this->searchPath}/{$this->pageId}.html") ;
 
-        $html = file_get_contents("html/{$this->searchPath}/{$this->pageId}.html") ;
+            if (file_exists("php/{$this->searchPath}/{$this->pageId}.php")){
 
-        if (file_exists("php/{$this->searchPath}/{$this->pageId}.php")){
+                require_once "php/{$this->searchPath}/{$this->pageId}.php" ;
+            }
 
-            require_once "php/{$this->searchPath}/{$this->pageId}.php" ;
+            if (file_exists("css/{$this->searchPath}/{$this->pageId}.css")){
+                $this->css[] = "{$this->searchPath}/{$this->pageId}" ;
+            }
+
+            $this->content = $html ;
         }
 
-        if (file_exists("css/{$this->searchPath}/{$this->pageId}.css")){
-            $this->css[] = "{$this->searchPath}/{$this->pageId}" ;
+        function gameForm():string{
+            return '' ;
         }
 
-        $this->content = $html ;
-    }
+        public function output():string{
+            $this->menu();
+            $css = "" ;
 
-    function gameForm():string{
-        return '' ;
-    }
+            foreach ($this->css AS $stylesheet){
+                $css .= "<link rel='stylesheet' href='{$this->beforePath}css/{$stylesheet}.css'>" ;
+            }
 
-    public function output():string{
-        $this->menu();
-        $css = "" ;
+            $this->content .= $this->gameForm() ;
 
-        foreach ($this->css AS $stylesheet){
-            $css .= "<link rel='stylesheet' href='{$this->beforePath}css/{$stylesheet}.css'>" ;
-        }
+            $bodyClass = '' ;
 
-        $this->content .= $this->gameForm() ;
+            if (!empty($_GET['framed'])){
+                $bodyClass = 'inIframe' ;
+            }
 
 
-        return "
+            return "
 <!doctype html>
-<html lang='fr'>
+<html lang='fr' class='{$bodyClass}'>
         <head>
           <title>{$this->title}</title>
           <meta charset='utf-8'>
@@ -110,6 +114,6 @@ class Page
     </body>
 </html>
 " ;
-    }
+        }
 
-}
+    }

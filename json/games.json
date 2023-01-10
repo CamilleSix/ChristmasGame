@@ -1,4 +1,16 @@
 {
+  "durien": {
+    "name": "Lutte, Animal, Fruit",
+    "description": "Trouve la solution à cette énigme.",
+    "score": {
+      "win": 10,
+      "loose": 2
+    },
+    "input": {
+      "kind" : "text",
+      "placeholder" : "Ma réponse"
+    }
+  },
   "call-me-by-my-name": {
     "name": "Call me by my name",
     "score": {
@@ -15,18 +27,6 @@
     "score": {
       "win": 20,
       "loose": 1
-    }
-  },
-  "durien": {
-    "name": "Lutte, Animal, Fruit",
-    "description": "Trouve la solution à cette énigme.",
-    "score": {
-      "win": 10,
-      "loose": 2
-    },
-    "input": {
-      "kind" : "text",
-      "placeholder" : "Ma réponse"
     }
   },
   "futur-dev": {
