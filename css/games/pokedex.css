@@ -1,0 +1,7 @@
+.pokedex div{
+    height: 4em ;
+    width: 4em;
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}

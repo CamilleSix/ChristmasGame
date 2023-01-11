@@ -8,7 +8,7 @@ RewriteEngine on
 RewriteBase /
 
 RewriteRule ^jeu/([a-zA-Z0-9-_]+)$   /index.php?game=$1 [L]
-RewriteRule ^jeu-iframe/([a-zA-Z0-9-_]+)$   /index.php?game=$1&framed=1 [L]
+RewriteRule ^form/valid-game/([a-zA-Z0-9-_]+)$   /index.php?game=$1&form=1 [L]
 
 RewriteRule ^([a-zA-Z0-9-_]+)$   /index.php?page=$1 [L]
 

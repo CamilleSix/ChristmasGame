@@ -4,7 +4,7 @@
     $gameList = "" ;
     $stepNumber = 1 ;
     $currentStep = false ;
-//href='jeu/{$url}'
+
     foreach ($allGames AS $url => $game){
         if (!empty($game->solved)) {
             $gameList .= "
@@ -20,6 +20,14 @@
 
         } elseif ($currentStep == false){
             $currentStep = true ;
+            $_GET['game'] = $url ;
+
+            $gameObject = new Game() ;
+
+            $gameHTML = $gameObject->output(true) ;
+            $this->css = array_merge( $this->css,$gameObject->css) ;
+
+
             $gameList .= "
     <div class='game currentStep'>
     <div class='gameImage ibv' style='background-image: url(images/games-thumbnails/{$url}.png)'></div>
@@ -27,9 +35,14 @@
     <strong class='db'>Etape {$stepNumber}</strong>
     {$game->name}
     </span>
-    <iframe src='jeu-iframe/{$url}'>
-    
-    </iframe>
+    <div id='game'>
+    {$gameHTML}
+
+    <form action='form/valid-game/{$url}' method='POST'>
+    <input type='text' name='solution' placeholder='Réponse' class='solutionInput defaultButton ibv'>
+    <button class='gameSubmit defaultButton ibv'>".svg("check", "#FFF")." Valider</button>
+    </form>
+    </div>
     </div>
     ";
         } else {

@@ -15,4 +15,10 @@ class Json
       return $content ;
     }
 
+    public function updateFile(string $name, $data){
+
+      file_put_contents("json/{$name}.json", json_encode($data, JSON_PRETTY_PRINT));
+
+    }
+
 }

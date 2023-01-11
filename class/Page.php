@@ -81,7 +81,7 @@
             return '' ;
         }
 
-        public function output():string{
+        public function output($onlyBody = false):string{
             $this->menu();
             $css = "" ;
 
@@ -97,8 +97,10 @@
                 $bodyClass = 'inIframe' ;
             }
 
+            if ($onlyBody == false){
+                $this->displayError() ;
 
-            return "
+                return "
 <!doctype html>
 <html lang='fr' class='{$bodyClass}'>
         <head>
@@ -114,6 +116,49 @@
     </body>
 </html>
 " ;
+            }else {
+                return "<div class='bodyContent'>{$this->content}</div>" ;
+            }
+        }
+
+        function newError($errorId = 'Unknown', $errorSpecialText = NULL){
+            $errors = [
+                "Unknown" =>["Erreur"],
+                "noSolution" =>["Merci d'indiquer une solution, une case vide ça marche pas, looser"],
+                "badSolution" =>["C'est pas ça, pourtant vraiment c'est facile", "Aucune chance que ce soit ça la solution srx", "C'est pas bon, pourtant même Fluff aurait trouvé "]
+            ] ;
+
+            $_SESSION['errors'][] = $errors[$errorId][array_rand($errors[$errorId])] ;
+
+        }
+        function displayError(){
+            if (!empty($_SESSION['errors'])){
+                $errorList = "<ul class='errors'>" ;
+                foreach ($_SESSION['errors'] AS $error){
+                    $errorList .= "<li>{$error}</li>" ;
+                }
+                $errorList .="</ul>" ;
+                $this->menu .= $errorList ;
+                $_SESSION['errors'] = NULL ; // supprime les erreurs une fois affichées
+            }
+        }
+
+
+        function stringToCleanUrl(string $string):string{
+            $caracteres = array(
+                'Á' => 'a', 'Â' => 'a', 'Ä' => 'a', 'à' => 'a', 'á' => 'a', 'â' => 'a', 'ä' => 'a', '@' => 'a',
+                'È' => 'e', 'É' => 'e', 'Ê' => 'e', 'Ë' => 'e', 'è' => 'e', 'é' => 'e', 'ê' => 'e', 'ë' => 'e', '€' => 'e',
+                'Ì' => 'i', 'Í' => 'i', 'Î' => 'i', 'Ï' => 'i', 'ì' => 'i', 'í' => 'i', 'î' => 'i', 'ï' => 'i',
+                'Ò' => 'o', 'Ó' => 'o', 'Ô' => 'o', 'Ö' => 'o', 'ò' => 'o', 'ó' => 'o', 'ô' => 'o', 'ö' => 'o',
+                'Ù' => 'u', 'Ú' => 'u', 'Û' => 'u', 'Ü' => 'u', 'ù' => 'u', 'ú' => 'u', 'û' => 'u', 'ü' => 'u', 'µ' => 'u',
+                'Œ' => 'oe', 'œ' => 'oe', 'ç' => 'c',
+                '$' => 's');
+
+            $url = strtr($string, $caracteres);
+            $url = preg_replace('#[^A-Za-z0-9]+#', '-', $url);
+            $url = trim($url, '-');
+
+            return strtolower($url);
         }
 
     }

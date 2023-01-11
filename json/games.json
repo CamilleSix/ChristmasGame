@@ -1,58 +1,55 @@
 {
-  "durien": {
-    "name": "Lutte, Animal, Fruit",
-    "description": "Trouve la solution à cette énigme.",
-    "score": {
-      "win": 10,
-      "loose": 2
+    "durien": {
+        "name": "Lutte, Animal, Fruit",
+        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
+        "failed": 1,
+        "solved": 1673450957
     },
-    "input": {
-      "kind" : "text",
-      "placeholder" : "Ma réponse"
-    }
+  "pokedex": {
+    "name": "Attrapez les tous",
+    "description": "Trouve la solution \u00e0 cette \u00e9nigme."
   },
-  "call-me-by-my-name": {
-    "name": "Call me by my name",
-    "score": {
-      "win": 20,
-      "loose": 1
+    "call-me-by-my-name": {
+        "name": "Call me by my name",
+        "score": {
+            "win": 20,
+            "loose": 1
+        },
+        "input": {
+            "kind": "hidden",
+            "placeholder": "Ma r\u00e9ponse"
+        }
     },
-    "input": {
-      "kind" : "hidden",
-      "placeholder" : "Ma réponse"
-    }
-  },
-  "la-plus-belle-ville": {
-    "name": "GeoGuessr",
-    "score": {
-      "win": 20,
-      "loose": 1
-    }
-  },
-  "futur-dev": {
-    "name": "Expression régulière",
-    "description": "Trouve la signification de cette expression régulière.",
-    "score": {
-      "win": 15,
-      "loose": 2
+    "la-plus-belle-ville": {
+        "name": "GeoGuessr",
+        "score": {
+            "win": 20,
+            "loose": 1
+        }
     },
-    "input": {
-      "kind" : "text",
-      "placeholder" : "Ma réponse"
-    }
-  },
-  "starters": {
-    "name": "Le grand choix",
-    "description": "Parce qu'un seul est digne d'être choisi.",
-    "score": {
-      "win": 10,
-      "loose": 10
+    "futur-dev": {
+        "name": "Expression r\u00e9guli\u00e8re",
+        "description": "Trouve la signification de cette expression r\u00e9guli\u00e8re.",
+        "score": {
+            "win": 15,
+            "loose": 2
+        },
+        "input": {
+            "kind": "text",
+            "placeholder": "Ma r\u00e9ponse"
+        }
     },
-    "input": {
-      "kind" : "text",
-      "placeholder" : "Ma réponse"
+    "starters": {
+        "name": "Le grand choix",
+        "description": "Parce qu'un seul est digne d'\u00eatre choisi.",
+        "score": {
+            "win": 10,
+            "loose": 10
+        },
+        "input": {
+            "kind": "text",
+            "placeholder": "Ma r\u00e9ponse"
+        }
     }
-  }
-
-
 }
