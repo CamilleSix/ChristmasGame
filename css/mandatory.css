@@ -28,12 +28,13 @@ html.inIframe body{
     margin: auto;
     border: 0 solid;
 }
-svg, button, a, span{
+svg, button, span{
     display: inline-block;
     vertical-align: middle;
 }
 a{
     text-decoration: none;
+    color: navy;
 }
 h1,h2,h3{
     margin-bottom: 0.2em ;
@@ -50,6 +51,7 @@ nav.menu{
 
 nav.menu img{
     height: 12em ;
+    margin-bottom: 2em ;
 }
 
 
@@ -114,3 +116,6 @@ ul.errors li{
     padding: 1em ;
     margin : 1em 0
 }
+
+
+/* placement du logo */

@@ -6,10 +6,24 @@
         "failed": 1,
         "solved": 1673450957
     },
-  "pokedex": {
-    "name": "Attrapez les tous",
-    "description": "Trouve la solution \u00e0 cette \u00e9nigme."
-  },
+    "pokedex": {
+        "name": "Attrapez les tous",
+        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "solution": "ee6b738e2acb87bbd8e78bd3ca92ef7ca5777776",
+        "solved": 1673885351
+    },
+    "futur-dev": {
+        "name": "Expression r\u00e9guli\u00e8re",
+        "description": "Trouve la signification de cette expression r\u00e9guli\u00e8re en t'aidant <a href='https:\/\/regex101.com\/' traget='_blank'>de ce site<\/a>.",
+        "solution": "3acc7c2fad2a8a737f10cb2e7446f7a98c645670",
+        "solved": 1673885475
+    },
+    "fluff": {
+        "name": "Une super belle photo de Fluff qui mange un brocoli",
+        "description": "Parce que Fluff est magnifique, qu'il aime les brocoli et qu'il m\u00e9ritait une \u00e9preuve.",
+        "solution": "c6f7a455b0e25dfce704ccd701004b8ed5c53ab3",
+        "solved": 1673888144
+    },
     "call-me-by-my-name": {
         "name": "Call me by my name",
         "score": {
@@ -26,18 +40,6 @@
         "score": {
             "win": 20,
             "loose": 1
-        }
-    },
-    "futur-dev": {
-        "name": "Expression r\u00e9guli\u00e8re",
-        "description": "Trouve la signification de cette expression r\u00e9guli\u00e8re.",
-        "score": {
-            "win": 15,
-            "loose": 2
-        },
-        "input": {
-            "kind": "text",
-            "placeholder": "Ma r\u00e9ponse"
         }
     },
     "starters": {

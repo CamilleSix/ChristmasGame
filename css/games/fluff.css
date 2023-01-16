@@ -1,0 +1,14 @@
+.fluffParent{
+    position: relative;
+}
+.fluffParent svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+}
+img.fluff{
+    height: 30em ;
+    max-width: 100%;
+    position: relative;
+}

@@ -32,7 +32,7 @@
         public function menu(){
             $this->menu = "
 <nav class='menu'>
-<img src='images/logo.jpg' class='logo'>
+<img src='images/logo.svg' class='logo'>
 </nav>
 " ;
         }
