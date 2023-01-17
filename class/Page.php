@@ -98,7 +98,7 @@
             }
 
             if ($onlyBody == false){
-                $this->displayError() ;
+                $this->displayNotification() ;
 
                 return "
 <!doctype html>
@@ -121,21 +121,34 @@
             }
         }
 
-        function newError($errorId = 'Unknown', $errorSpecialText = NULL){
-            $errors = [
+        function newNotification($notificationId = 'Unknown', $isError = true){
+            $messages = [
                 "Unknown" =>["Erreur"],
+                "goodSolution" =>["Beau gosse"],
                 "noSolution" =>["Merci d'indiquer une solution, une case vide ça marche pas, looser"],
                 "badSolution" =>["C'est pas ça, pourtant vraiment c'est facile", "Aucune chance que ce soit ça la solution srx", "C'est pas bon, pourtant même Fluff aurait trouvé "]
             ] ;
 
-            $_SESSION['errors'][] = $errors[$errorId][array_rand($errors[$errorId])] ;
+            if ($isError == true) {
+                $_SESSION['errors'][] = $messages[$notificationId][array_rand($messages[$notificationId])];
+            } else {
+                $_SESSION['notifications'][] = $messages[$notificationId][array_rand($messages[$notificationId])];
+            }
 
         }
-        function displayError(){
-            if (!empty($_SESSION['errors'])){
-                $errorList = "<ul class='errors'>" ;
-                foreach ($_SESSION['errors'] AS $error){
-                    $errorList .= "<li>{$error}</li>" ;
+        function displayNotification(){
+            if (!empty($_SESSION['errors']) || !empty($_SESSION['notifications'])){
+                $errorList = "<ul class='notifications'>" ;
+                if (!empty($_SESSION['errors'])) {
+                    foreach ($_SESSION['errors'] as $error) {
+                        $errorList .= "<li class='error'>{$error}</li>";
+                    }
+                }
+
+                if (!empty($_SESSION['notifications'])) {
+                    foreach ($_SESSION['notifications'] as $error) {
+                        $errorList .= "<li class='notification'>{$error}</li>";
+                    }
                 }
                 $errorList .="</ul>" ;
                 $this->menu .= $errorList ;

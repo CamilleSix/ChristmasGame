@@ -106,16 +106,20 @@ button.gameSubmit svg{
 }
 
 /* Affichage des erreurs */
-ul.errors{
+ul.notifications{
     margin-bottom: 2em ;
 }
-ul.errors li{
-    background-color: #ffe6e9;
-    color: #851e36;
+ul.notifications li{
     list-style: none;
     padding: 1em ;
     margin : 1em 0
 }
+ul.notifications li.error{
+    background-color: #ffe6e9;
+    color: #851e36;
+}
 
-
-/* placement du logo */
+ul.notifications li.notification{
+    background-color: #edffe6;
+    color: #1e8538;
+}

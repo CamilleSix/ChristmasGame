@@ -48,17 +48,17 @@
             if ($solution === $this->pageConfig->solution){
 
                 $gameData->{$this->pageId}->solved  = time() ;
-
+                $this->newNotification("goodSolution", false);
             } else {
                 if (empty($gameData->{$this->pageId}->failed )){
                     $gameData->{$this->pageId}->failed =  1 ;
                 } else {
                     $gameData->{$this->pageId}->failed++ ;
                 }
-                $this->newError("badSolution");
+                $this->newNotification("badSolution");
             }
         } else {
-            $this->newError("noSolution");
+            $this->newNotification("noSolution");
         }
 
         $this->json->updateFile("games", $gameData);
