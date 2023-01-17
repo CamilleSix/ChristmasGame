@@ -1,13 +1,13 @@
 <?php
-    $allGames = $this->json->getFile('games') ;
+$allGames = $this->json->getFile('games') ;
 
-    $gameList = "" ;
-    $stepNumber = 1 ;
-    $currentStep = false ;
+$gameList = "" ;
+$stepNumber = 1 ;
+$currentStep = false ;
 
-    foreach ($allGames AS $url => $game){
-        if (!empty($game->solved)) {
-            $gameList .= "
+foreach ($allGames AS $url => $game){
+    if (!empty($game->solved)) {
+        $gameList .= "
     <div class='game solvedGame'>
     <div class='gameImage ibv' style='background-image: url(images/games-thumbnails/{$url}.png)'></div>
     <span class='ibv w70'>
@@ -18,22 +18,26 @@
     </div>
     ";
 
-        } elseif ($currentStep == false){
-            $currentStep = true ;
-            $_GET['game'] = $url ;
+    } elseif ($currentStep == false){
+        $currentStep = true ;
+        $_GET['game'] = $url ;
 
-            $gameObject = new Game() ;
+        $gameObject = new Game() ;
 
-            $gameHTML = $gameObject->output(true) ;
-            $this->css = array_merge( $this->css,$gameObject->css) ;
+        $gameHTML = $gameObject->output(true) ;
+        $this->css = array_merge( $this->css,$gameObject->css) ;
 
 
-            $gameList .= "
+        $gameList .= "
     <div class='game currentStep'>
     <div class='gameImage ibv' style='background-image: url(images/games-thumbnails/{$url}.png)'></div>
     <span class='ibv w70'>
     <strong class='db'>Etape {$stepNumber}</strong>
     {$game->name}
+    </span>
+    <span class='creator'>
+    <strong>Créateur :</strong>
+    {$game->creator}
     </span>
     <div id='game'>
     {$gameHTML}
@@ -45,8 +49,8 @@
     </div>
     </div>
     ";
-        } else {
-            $gameList .= "
+    } else {
+        $gameList .= "
     <div class='game futurGame'>
     <div class='gameImage ibv' style='background-image: url(images/games-thumbnails/{$url}.png)'></div>
     <span class='ibv w70'>
@@ -55,8 +59,8 @@
     </span>
     </div>
     ";
-        }
-        $stepNumber++;
     }
-    $html = str_replace('{gamesList}', $gameList, $html) ;
+    $stepNumber++;
+}
+$html = str_replace('{gamesList}', $gameList, $html) ;
 

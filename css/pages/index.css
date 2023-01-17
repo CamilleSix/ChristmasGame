@@ -16,6 +16,15 @@ div.game .gameImage{
 
 .currentStep{
     background-color: #ecfcea;
+    position: relative;
+}
+.currentStep .creator{
+    position: absolute;
+    top: 1em ;
+    right: 1em ;
+    background-color: rgba(255,255,255,0.9);
+    padding: 0.5em ;
+    color: #7e7e7e;
 }
 
 .currentStep #game{
