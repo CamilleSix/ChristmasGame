@@ -125,9 +125,9 @@ class Page
     function newNotification($notificationId = 'Unknown', $isError = true){
         $messages = [
             "Unknown" =>["Erreur"],
-            "goodSolution" =>["Beau gosse"],
+            "goodSolution" =>["C'était vraiment facile après","Beau gosse"],
             "noSolution" =>["Merci d'indiquer une solution, une case vide ça marche pas, looser"],
-            "badSolution" =>["C'est pas ça, pourtant vraiment c'est facile", "Aucune chance que ce soit ça la solution srx", "C'est pas bon, pourtant même Fluff aurait trouvé "]
+            "badSolution" =>["C'est pas ça, pourtant vraiment c'est facile", "Aucune chance que ce soit ça la solution srx", "C'est pas bon, pourtant même Fluff aurait trouvé ", "Looser", "Attend, tu étais sur de toi ?"]
         ] ;
 
         if ($isError == true) {
@@ -154,6 +154,7 @@ class Page
             $errorList .="</ul>" ;
             $this->menu .= $errorList ;
             $_SESSION['errors'] = NULL ; // supprime les erreurs une fois affichées
+            $_SESSION['notifications'] = NULL ;
         }
     }
 

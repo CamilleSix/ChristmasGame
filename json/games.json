@@ -3,33 +3,58 @@
         "name": "Lutte, Animal, Fruit",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
         "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
-        "creator": "Camille"
+        "creator": "Camille",
+        "solved": 1674140674
     },
     "pokedex": {
         "name": "Attrapez les tous",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
-        "solution": "ee6b738e2acb87bbd8e78bd3ca92ef7ca5777776"
+        "solution": "ee6b738e2acb87bbd8e78bd3ca92ef7ca5777776",
+        "creator": "Camille",
+        "solved": 1674140711
     },
     "futur-dev": {
         "name": "Expression r\u00e9guli\u00e8re",
         "description": "Trouve la signification de cette expression r\u00e9guli\u00e8re en t'aidant <a href='https:\/\/regex101.com\/' traget='_blank'>de ce site<\/a>.",
-        "solution": "3acc7c2fad2a8a737f10cb2e7446f7a98c645670"
+        "solution": "3acc7c2fad2a8a737f10cb2e7446f7a98c645670",
+        "creator": "Camille",
+        "solved": 1674140750
     },
     "fluff": {
         "name": "Une super belle photo de Fluff qui mange un brocoli",
         "description": "Parce que Fluff est magnifique, qu'il aime les brocoli et qu'il m\u00e9ritait une \u00e9preuve.",
-        "solution": "c6f7a455b0e25dfce704ccd701004b8ed5c53ab3"
+        "solution": "c6f7a455b0e25dfce704ccd701004b8ed5c53ab3",
+        "creator": "Camille",
+        "solved": 1674140765
     },
     "coquin": {
         "name": "L'\u00e9tape un peu coquine",
         "description": "Le mot \u00e0 trouver est cach\u00e9 dans la fente de celle qui est plut\u00f4t chaude \u00e0 l'arri\u00e8re, qui fait beaucoup de bruit et qui en plus se prend des bites.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
-        "failed": 5
+        "failed": 5,
+        "creator": "Camille",
+        "solved": 1674140779
+    },
+    "out-of-context": {
+        "name": "Hors contexte",
+        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
+        "creator": "Camille",
+        "solved": 1674141019
+    },
+    "sauve-le-monde": {
+        "name": "Toi aussi, sauve le monde",
+        "description": "C'\u00e9tait un peu aussi pour le plaisir de revoir la sc\u00e8ne, j'avoue.",
+        "solution": "3196a336388df51af89e19275684b693a24cb486",
+        "creator": "Camille",
+        "failed": 2,
+        "solved": 1674142101
     },
     "jesus": {
-        "name": "Conduisez-vous en enfants de lumière.",
+        "name": "Conduisez-vous en enfants de lumi\u00e8re.",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
-        "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e"
+        "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
+        "creator": "Camille"
     },
     "call-me-by-my-name": {
         "name": "Call me by my name",
