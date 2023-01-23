@@ -7,14 +7,13 @@ class Page
     public $title ;
 
     public $menu;
-    public $score = 0 ;
 
     public $content ;
 
     public $footer;
     public $css = ["mandatory"] ;
     public $beforePath = '' ;
-    public $script ;
+    public $js = [] ;
 
     public $pageId = 'index' ;
     public $pageConfig ;
@@ -74,6 +73,10 @@ class Page
             $this->css[] = "{$this->searchPath}/{$this->pageId}" ;
         }
 
+        if (file_exists("js/{$this->searchPath}/{$this->pageId}.js")){
+            $this->js[] = "{$this->searchPath}/{$this->pageId}" ;
+        }
+
         $this->content = $html ;
     }
 
@@ -88,6 +91,11 @@ class Page
         $this->css = array_unique($this->css) ;
         foreach ($this->css AS $stylesheet){
             $css .= "<link rel='stylesheet' href='{$this->beforePath}css/{$stylesheet}.css'>" ;
+        }
+
+        $this->js = array_unique($this->js) ;
+        foreach ($this->js AS $script){
+            $css .= "<script src='{$this->beforePath}js/{$script}.js'>" ;
         }
 
         $this->content .= $this->gameForm() ;

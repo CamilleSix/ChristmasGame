@@ -27,14 +27,7 @@
         "creator": "Camille",
         "solved": 1674140765
     },
-    "coquin": {
-        "name": "L'\u00e9tape un peu coquine",
-        "description": "Le mot \u00e0 trouver est cach\u00e9 dans la fente de celle qui est plut\u00f4t chaude \u00e0 l'arri\u00e8re, qui fait beaucoup de bruit et qui en plus se prend des bites.",
-        "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
-        "failed": 5,
-        "creator": "Camille",
-        "solved": 1674140779
-    },
+
     "out-of-context": {
         "name": "Hors contexte",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
@@ -55,36 +48,5 @@
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
         "creator": "Camille"
-    },
-    "call-me-by-my-name": {
-        "name": "Call me by my name",
-        "score": {
-            "win": 20,
-            "loose": 1
-        },
-        "input": {
-            "kind": "hidden",
-            "placeholder": "Ma r\u00e9ponse"
-        },
-        "failed": 1
-    },
-    "la-plus-belle-ville": {
-        "name": "GeoGuessr",
-        "score": {
-            "win": 20,
-            "loose": 1
-        }
-    },
-    "starters": {
-        "name": "Le grand choix",
-        "description": "Parce qu'un seul est digne d'\u00eatre choisi.",
-        "score": {
-            "win": 10,
-            "loose": 10
-        },
-        "input": {
-            "kind": "text",
-            "placeholder": "Ma r\u00e9ponse"
-        }
     }
 }
