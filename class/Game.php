@@ -2,9 +2,9 @@
 
     public function __construct() {
         $this->searchPath = 'games' ;
+        $this->isGame = true ;
         parent::__construct() ;
         $this->setGameTitle() ;
-        $this->isGame = false ;
 
     }
 
@@ -16,7 +16,7 @@
 
         $this->title = $this->pageConfig->name ;
         $this->content = "
-<article class='ibv w70'>
+<article>
 <div class='gameDescription'>{$this->pageConfig->description}</div>
 </article>
 <section class='game'>

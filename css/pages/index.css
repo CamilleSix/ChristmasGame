@@ -1,6 +1,6 @@
 div.game{
     padding: 0.5em 0;
-    border: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
     border-left: 5px solid #1c1c1c;
 
 }
@@ -25,6 +25,7 @@ div.game .gameImage{
     background-color: rgba(255,255,255,0.9);
     padding: 0.5em ;
     color: #7e7e7e;
+    max-width: 40%;
 }
 
 .currentStep #game{
@@ -32,14 +33,33 @@ div.game .gameImage{
     padding: 1em ;
     margin: 1em ;
 }
+div.solvedGame{
+    border-left: 5px solid #2ea17a;
+}
 div.solvedGame .gameImage{
     height: 2em;
     width: 2em ;
 }
+
 div.futurGame{
     opacity: 0.5;
 }
 div.futurGame .gameImage{
     height: 2em;
     width: 2em ;
+}
+
+
+@media screen and (max-width:800px) {
+    .currentStep .creator {
+        top: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 0.5em;
+        color: #7e7e7e;
+        max-width: 100%;
+        position: relative;
+        display: block;
+        margin-top: 0.5em ;
+    }
 }

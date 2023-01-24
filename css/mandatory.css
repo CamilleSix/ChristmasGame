@@ -93,6 +93,8 @@ input.solutionInput{
     background-color: whitesmoke;
     border: 1px solid #e7e7e7;
     font-size: 1em ;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 button.gameSubmit{
     background-color: #2ea17a;
@@ -125,4 +127,16 @@ ul.notifications li.error{
 ul.notifications li.notification{
     background-color: #edffe6;
     color: #1e8538;
+}
+
+@media screen and (max-width:1000px) {
+    html{
+        padding: 2em 0.5em  ;
+    }
+    body{
+        max-width: 100%;
+        width: 40em;
+        box-sizing: border-box;
+    }
+
 }
