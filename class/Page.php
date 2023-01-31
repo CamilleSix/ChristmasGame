@@ -9,6 +9,7 @@
         public $menu;
 
         public $content ;
+        protected $currentVersion = "0.1" ;
 
         public $footer;
         public $css = ["mandatory"] ;
@@ -98,12 +99,12 @@
 
             $this->css = array_unique($this->css) ;
             foreach ($this->css AS $stylesheet){
-                $css .= "<link rel='stylesheet' href='{$this->beforePath}css/{$stylesheet}.css'>" ;
+                $css .= "<link rel='stylesheet' href='{$this->beforePath}css/{$stylesheet}.css?{$this->currentVersion}'>" ;
             }
 
             $this->js = array_unique($this->js) ;
             foreach ($this->js AS $script){
-                $css .= "<script src='{$this->beforePath}js/{$script}.js'>" ;
+                $css .= "<script src='{$this->beforePath}js/{$script}.js?{$this->currentVersion}'>" ;
             }
 
             $this->content .= $this->gameForm() ;
