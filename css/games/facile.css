@@ -1,0 +1,12 @@
+.noForm{
+    background-color: #ffe6e9;
+    color: #851e36;
+    padding: 1em ;
+    transition: 1s ease all;
+}
+#mainSubmitForm{
+    position: relative;
+}
+button.gameSubmit {
+position: relative;
+}

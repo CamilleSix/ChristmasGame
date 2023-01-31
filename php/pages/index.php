@@ -25,7 +25,10 @@
             $gameObject = new Game() ;
 
             $gameHTML = $gameObject->output(true) ;
+
             $this->css = array_merge( $this->css,$gameObject->css) ;
+            $this->js = array_merge( $this->js,$gameObject->js) ;
+
             $creatorImage = '' ;
             if (!empty($game->creatorImage)){
                 $creatorImage = "<div class='creatorImage' style='background-image: url(images/creators/{$game->creatorImage})'></div>" ;
@@ -47,7 +50,7 @@
     <div id='game'>
     {$gameHTML}
 
-    <form action='form/valid-game/{$url}' method='POST'>
+    <form action='form/valid-game/{$url}' method='POST' id='mainSubmitForm'>
     <input type='text' name='solution' placeholder='Réponse' class='solutionInput defaultButton ibv'>
     <button class='gameSubmit defaultButton ibv'>".svg("check", "#FFF")." Valider</button>
     </form>

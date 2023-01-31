@@ -107,8 +107,9 @@
             }
 
             $this->js = array_unique($this->js) ;
+
             foreach ($this->js AS $script){
-                $css .= "<script src='{$this->beforePath}js/{$script}.js?{$this->currentVersion}'>" ;
+                $css .= "<script src='{$this->beforePath}js/{$script}.js?{$this->currentVersion}'></script>" ;
             }
 
             $this->content .= $this->gameForm() ;
@@ -147,7 +148,7 @@
         function newNotification($notificationId = 'Unknown', $isError = true){
             $messages = [
                 "Unknown" =>["Erreur"],
-                "goodSolution" =>["C'était vraiment facile après","Beau gosse"],
+                "goodSolution" =>["C'était vraiment facile après","Beau gosse", "Bien joué ♡"],
                 "noSolution" =>["Merci d'indiquer une solution, une case vide ça marche pas, looser"],
                 "badSolution" =>["C'est pas ça, pourtant vraiment c'est facile", "Aucune chance que ce soit ça la solution srx", "C'est pas bon, pourtant même Fluff aurait trouvé ", "Looser", "Attend, tu étais sur de toi ?"]
             ] ;
