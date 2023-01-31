@@ -1,4 +1,5 @@
 .durianGame img{
     height: 10em;
     border: 1px solid whitesmoke;
+    max-width: 100%;
 }
