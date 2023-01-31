@@ -3,7 +3,7 @@
     class Page
     {
         public $json ;
-        public $meta;
+        public $meta ;
         public $title ;
 
         public $menu;
@@ -64,6 +64,9 @@
                 $this->content ="Cette page n'existe pas" ;
             }
 
+            if (!empty( $this->pageConfig->title)){
+                $this->title = $this->pageConfig->title ;
+            }
 
 
         }
@@ -94,6 +97,7 @@
 
         public function output($onlyBody = false):string{
 
+
             $this->menu();
             $css = "" ;
 
@@ -122,7 +126,7 @@
 <!doctype html>
 <html lang='fr' class='{$bodyClass}'>
         <head>
-          <title>{$this->title}</title>
+          <title>{$this->title} - Katchacha</title>
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta charset='utf-8'>
           {$this->meta}
