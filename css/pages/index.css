@@ -20,12 +20,15 @@ div.game .gameImage{
 }
 .currentStep .creator{
     position: absolute;
-    top: 1em ;
+    top: -1em ;
     right: 1em ;
-    background-color: rgba(255,255,255,0.9);
+    background-color: whitesmoke;
     padding: 0.5em ;
-    color: #7e7e7e;
+    color: #2d2d2d;
     max-width: 40%;
+    border-radius: 0.2em ;
+    font-size: 0.9em ;
+    border: 1px solid #e7e7e7;
 }
 
 .currentStep #game{
@@ -49,7 +52,14 @@ div.futurGame .gameImage{
     width: 2em ;
 }
 
+div.creatorImage{
+    height: 3em ;
+    width: 3em ;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto 0.5em ;
 
+}
 @media screen and (max-width:800px) {
     .currentStep .creator {
         top: 0;
@@ -61,5 +71,12 @@ div.futurGame .gameImage{
         position: relative;
         display: block;
         margin-top: 0.5em ;
+        border: 0 solid transparent;
+    }
+    div.creatorImage{
+        display: inline-block;
+        margin: 0 0.5em 0 2em  ;
+        vertical-align: middle;
+
     }
 }

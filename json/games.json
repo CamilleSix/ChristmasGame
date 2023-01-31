@@ -4,83 +4,91 @@
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
         "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
         "creator": "Camille",
-        "solved": 1674575228
+        "creatorImage": "camille-s.jpg"
     },
     "pokedex": {
         "name": "Attrapez les tous",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
         "solution": "ee6b738e2acb87bbd8e78bd3ca92ef7ca5777776",
-        "creator": "Camille"
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
     },
     "futur-dev": {
         "name": "Expression r\u00e9guli\u00e8re",
         "description": "Trouve la signification de cette expression r\u00e9guli\u00e8re en t'aidant <a href='https:\/\/regex101.com\/' target='_blank'>de ce site<\/a>.",
         "solution": "3acc7c2fad2a8a737f10cb2e7446f7a98c645670",
         "creator": "Camille",
-        "solved": 1674575235
+        "creatorImage": "camille-s.jpg"
     },
     "fluff": {
         "name": "Une super belle photo de Fluff qui mange un brocoli",
         "description": "Parce que Fluff est magnifique, qu'il aime les brocoli et qu'il m\u00e9ritait une \u00e9preuve.",
         "solution": "c6f7a455b0e25dfce704ccd701004b8ed5c53ab3",
         "creator": "Camille",
-        "solved": 1674575235
+        "creatorImage": "camille-s.jpg"
     },
     "out-of-context": {
         "name": "Hors contexte",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
         "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
         "creator": "Camille",
-        "failed": 1,
-        "solved": 1674575235
+        "creatorImage": "camille-s.jpg",
+        "failed": 1
     },
     "sauve-le-monde": {
         "name": "Toi aussi, sauve le monde",
         "description": "C'\u00e9tait un peu aussi pour le plaisir de revoir la sc\u00e8ne, j'avoue.",
         "solution": "3196a336388df51af89e19275684b693a24cb486",
         "creator": "Camille",
-        "solved": 1674575235
+        "creatorImage": "camille-s.jpg"
     },
     "rateau": {
         "name": "Tu te prends un râteau",
         "description": "Trouve la solution à cette énigme.",
         "solution": "97d52074ae91110612e20427cc9863e30e86ddf7",
-        "creator": "Côme"
+        "creator": "Côme",
+        "creatorImage": "camille-s.jpg"
     },
     "mission-impossible": {
         "name": "Mission impossible",
         "description": "Cher agent K, un document top-secret a été déposé dans votre boite aux lettres.<br>Nos équipes de spécialistes ne parviennent pas à le déchiffrer. Vous êtes notre dernier espoir, nous cherchons à identifier le 14ème individu de la liste.",
         "solution": "ebcefb6cefb0841628b67114a799f39cc199d97a",
-        "creator": "Camille"
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
     },
     "informations-precises": {
         "name": "\u00c9chelle 1 sur 10",
         "description": "Le mot a \u00e9t\u00e9 cach\u00e9 \u00e0 l'endroit indiqu\u00e9 sur l'image ci-dessous.",
         "solution": "8080ff5feaeab857cb59a706a5109a99fb10ee06",
-        "creator": "Camille"
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
     },
     "oogarden": {
         "name": "Entretien technique Oogarden",
         "description": "Toi aussi deviens d\u00e9veloppeur pour Oogarden \u00e0 Amb\u00e9rieu en r\u00e9solvant cette \u00e9nigme : Quel est le num\u00e9ro de la place o\u00f9 est gar\u00e9e la Twingo d'Antoine ?",
         "solution": "e62d7f1eb43d87c202d2f164ba61297e71be80f4",
-        "creator": "Oogarden"
+        "creator": "Oogarden",
+        "creatorImage": "camille-s.jpg"
     },
     "cache-cache": {
         "name": "La page cach\u00e9e",
         "description": "Il y a sur ce site, une page cach\u00e9e accessible uniquement avec l'url, Google l'a d\u00e9j\u00e0 trouv\u00e9e avant toi ! Si j'avais lu plus attentivement les recommandations sur les <a href='http:\/\/robots-txt.com\/' target='_blank'>robots.txt<\/a> j'aurais pas eu ce probl\u00e8me... ",
         "solution": "0fabd7bb9a4c26863435df81ee0bcd72be959b73",
-        "creator": "Camille"
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
     },
     "jesus": {
         "name": "Conduisez-vous en enfants de lumi\u00e8re.",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
-        "creator": "Camille"
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
     },
     "clash": {
         "name": "Compo Clash of clan",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
-        "creator": "Camille"
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
     }
 }

@@ -1,13 +1,13 @@
 <?php
-$allGames = $this->json->getFile('games') ;
+    $allGames = $this->json->getFile('games') ;
 
-$gameList = "" ;
-$stepNumber = 1 ;
-$currentStep = false ;
+    $gameList = "" ;
+    $stepNumber = 1 ;
+    $currentStep = false ;
 
-foreach ($allGames AS $url => $game){
-    if (!empty($game->solved)) {
-        $gameList .= "
+    foreach ($allGames AS $url => $game){
+        if (!empty($game->solved)) {
+            $gameList .= "
     <div class='game solvedGame'>
     <div class='gameImage ibv' style='background-image: url(images/games-thumbnails/{$url}.png)'></div>
     <span class='ibv w70'>
@@ -18,17 +18,21 @@ foreach ($allGames AS $url => $game){
     </div>
     ";
 
-    } elseif ($currentStep == false){
-        $currentStep = true ;
-        $_GET['game'] = $url ;
+        } elseif ($currentStep == false){
+            $currentStep = true ;
+            $_GET['game'] = $url ;
 
-        $gameObject = new Game() ;
+            $gameObject = new Game() ;
 
-        $gameHTML = $gameObject->output(true) ;
-        $this->css = array_merge( $this->css,$gameObject->css) ;
+            $gameHTML = $gameObject->output(true) ;
+            $this->css = array_merge( $this->css,$gameObject->css) ;
+            $creatorImage = '' ;
+            if (!empty($game->creatorImage)){
+                $creatorImage = "<div class='creatorImage' style='background-image: url(images/creators/{$game->creatorImage})'></div>" ;
+            }
 
 
-        $gameList .= "
+            $gameList .= "
     <div class='game currentStep'>
     <div class='gameImage ibv' style='background-image: url(images/games-thumbnails/{$url}.png)'></div>
     <span class='ibv w70'>
@@ -36,6 +40,7 @@ foreach ($allGames AS $url => $game){
     {$game->name}
     </span>
     <span class='creator'>
+    {$creatorImage}
     <strong>Créateur :</strong>
     {$game->creator}
     </span>
@@ -49,8 +54,8 @@ foreach ($allGames AS $url => $game){
     </div>
     </div>
     ";
-    } else {
-        $gameList .= "
+        } else {
+            $gameList .= "
     <div class='game futurGame'>
     <div class='gameImage ibv' style='background-image: url(images/games-thumbnails/{$url}.png)'></div>
     <span class='ibv w70'>
@@ -59,8 +64,8 @@ foreach ($allGames AS $url => $game){
     </span>
     </div>
     ";
+        }
+        $stepNumber++;
     }
-    $stepNumber++;
-}
-$html = str_replace('{gamesList}', $gameList, $html) ;
+    $html = str_replace('{gamesList}', $gameList, $html) ;
 
