@@ -25,10 +25,22 @@ window.addEventListener("load", function() {
     let button = document.querySelector('button.gameSubmit') ;
 
     button.addEventListener('mouseenter',function (cursor){
-        let p = event.clientX ;
-       p += 10 ;
+        let x = cursor.clientX ;
+        let y = cursor.clientY ;
+        let randX = Math.random() < 0.5 ;
+        let randY = Math.random() < 0.5 ;
+        x += 100 ;  y += 50 ;
+        if (randX === true){
+            x -= 200 ;
+        }
+        if (randY === true){
+            y -= 100 ;
+        }
+
+
         button.style.position = "fixed" ;
-        button.style.left =  p +'px';
+        button.style.left =  x +'px';
+        button.style.top =  y +'px';
     }) ;
 
 })
