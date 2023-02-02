@@ -85,6 +85,13 @@
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
+    "chasse-1": {
+        "name": "Mini Chasse au trésor 1",
+        "description": "Pour commencer la chasse au trésor, regarde sous l'oeuf de licorne.",
+        "solution": "5d6671692ea1edff359596883330a4addb238405",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
     "jesus": {
         "name": "Conduisez-vous en enfants de lumi\u00e8re.",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
