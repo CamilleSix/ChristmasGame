@@ -1,4 +1,17 @@
 {
+    "cbd": {
+        "name": "CBD",
+        "description": "Quel est le slogan du CDB ?",
+        "solution": "89cf1eb718693e5c557aad727d0f5b3b2053bae4",
+        "creator": "Anna",
+        "creatorImage": "anna.png"
+    },
+    "spotify": {
+        "name": "La playlist des copains",
+        "description": "Associe chaque liste de chanson avec la bonne personne.",
+        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
+        "creator": "Un peu tout le monde"
+    },
     "durien": {
         "name": "Lutte, Animal, Fruit",
         "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
@@ -86,8 +99,8 @@
         "creatorImage": "camille-s.jpg"
     },
     "chasse-1": {
-        "name": "Mini Chasse au trésor 1",
-        "description": "Pour commencer la chasse au trésor, regarde sous l'oeuf de licorne.",
+        "name": "Mini Chasse au tr\u00e9sor 1",
+        "description": "Pour commencer la chasse au tr\u00e9sor, regarde sous l'oeuf de licorne.",
         "solution": "5d6671692ea1edff359596883330a4addb238405",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"

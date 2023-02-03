@@ -73,7 +73,12 @@
 
         function buildPageHtml(){
 
-            $html = file_get_contents("html/{$this->searchPath}/{$this->pageId}.html") ;
+            if(file_exists("html/{$this->searchPath}/{$this->pageId}.html")){
+                $html = file_get_contents("html/{$this->searchPath}/{$this->pageId}.html") ;
+            } else {
+                $html = "" ;
+            }
+
 
             if (file_exists("php/{$this->searchPath}/{$this->pageId}.php")){
 

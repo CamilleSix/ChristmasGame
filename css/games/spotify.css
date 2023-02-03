@@ -1,0 +1,25 @@
+.phoneParent{
+    margin-right: 2em;
+    margin-bottom: 2em ;
+}
+
+.phoneParent .phone{
+    height: 20em ;
+    display: block;
+    width: 12em ;
+    background-size: cover ;
+    border: 2px solid Silver;
+    border-radius: 1em ;
+    cursor: zoom-in;
+}
+
+.phoneParent select{
+    margin-top: 1em ;
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    background-color: whitesmoke;
+    border: 1px solid #e7e7e7;
+    font-size: 1em ;
+    box-sizing: border-box;
+
+}

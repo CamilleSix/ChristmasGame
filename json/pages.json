@@ -2,6 +2,9 @@
   "index":{
     "title": "Le jeu de piste"
   },
+  "sha1":{
+    "title": "sha1(solution)"
+  },
   "mentions-legales":{},
   "potiron":{}
 }
