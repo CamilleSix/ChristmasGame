@@ -1,7 +1,7 @@
 <?php
 
-$friends = ["Anna", "Florian", "Camille", "Eva", "Elza", "Thomas"] ;
-$fileFormats = ["jpeg", "png", "jpeg", "jpeg", "jpeg", "jpg"] ;
+$friends = ["Anna", "Florian", "Camille", "Eva", "Elza", "Thomas", "Alex"] ;
+$fileFormats = ["jpeg", "png", "jpeg", "jpeg", "jpeg", "jpg", "jpeg"] ;
 $phoneList = '' ;
 $options = '' ;
 

@@ -1,16 +1,31 @@
 {
-    "cbd": {
-        "name": "CBD",
-        "description": "Quel est le slogan du CDB ?",
-        "solution": "89cf1eb718693e5c557aad727d0f5b3b2053bae4",
-        "creator": "Anna",
-        "creatorImage": "anna.png"
+    "roulement-clavier": {
+        "name": "Roulement de clavier",
+        "description": "Pour cette étape il va falloir que tu... Non Fluff je suis occupée, Fluff marche pas sur le cl...RegGnskUr",
+        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "criminel": {
+        "name": "Hors la loi",
+        "description": "Dans quelle ville es-tu recherché par la police ?",
+        "solution": "7552f458be1eac1ad6fc185151588a90adb53d45",
+        "creator": "Eva",
+        "creatorImage": "eva.png"
     },
     "spotify": {
         "name": "La playlist des copains",
         "description": "Associe chaque liste de chanson avec la bonne personne.",
         "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
         "creator": "Un peu tout le monde"
+    },
+
+    "cbd": {
+        "name": "CBD",
+        "description": "Quel est le slogan du CDB ?",
+        "solution": "89cf1eb718693e5c557aad727d0f5b3b2053bae4",
+        "creator": "Anna",
+        "creatorImage": "anna.png"
     },
     "durien": {
         "name": "Lutte, Animal, Fruit",
