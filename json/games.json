@@ -1,4 +1,16 @@
 {
+    "luke": {
+        "name": "Petite star",
+        "description": "Trouve la solution de cette \u00e9nigme.",
+        "solution": "0bfb8cf5f31251030f0a62f875b5ae7b3c98feb9",
+        "creator": "Frédérique et Hervé"
+    },
+    "ronces": {
+        "name": "I belive I can fly",
+        "description": "Trouve la solution de cette \u00e9nigme.",
+        "solution": "a68c5d844151d59dddb98b1f96169f93b3072386",
+        "creator": "Christelle"
+    },
     "facile": {
         "name": "L'\u00e9tape cadeau",
         "description": "Le mot pour passer \u00e0 l'\u00e9tape suivante est <strong>boobs<\/strong>, bonne chance. ",
@@ -44,21 +56,21 @@
     },
     "durien": {
         "name": "Lutte, Animal, Fruit",
-        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
     "pokedex": {
         "name": "Attrapez les tous",
-        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "ee6b738e2acb87bbd8e78bd3ca92ef7ca5777776",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
     "rateau": {
         "name": "Tu te prends un r\u00e2teau",
-        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "97d52074ae91110612e20427cc9863e30e86ddf7",
         "creator": "C\u00f4me",
         "creatorImage": "come.png"
@@ -100,7 +112,7 @@
     },
     "out-of-context": {
         "name": "Hors contexte",
-        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg",
@@ -129,14 +141,14 @@
     },
     "jesus": {
         "name": "Conduisez-vous en enfants de lumi\u00e8re.",
-        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
     "clash": {
         "name": "Compo Clash of clan",
-        "description": "Trouve la solution \u00e0 cette \u00e9nigme.",
+        "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
