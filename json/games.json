@@ -1,4 +1,25 @@
 {
+    "facile": {
+        "name": "L'\u00e9tape cadeau",
+        "description": "Le mot pour passer \u00e0 l'\u00e9tape suivante est <strong>boobs<\/strong>, bonne chance. ",
+        "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg",
+        "failed": 6
+    },
+    "spotify": {
+        "name": "La playlist des copains",
+        "description": "Associe chaque liste de chanson avec la bonne personne.",
+        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
+        "creator": "Un peu tout le monde"
+    },
+    "amoureux": {
+        "name": "Le test du petit copain",
+        "description": "Est ce que tu connais bien ta Camille ?",
+        "solution": "331569503dfeb43b4701be7f9937a124a96ddd34",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
     "roulement-clavier": {
         "name": "Roulement de clavier",
         "description": "Pour cette étape il va falloir que tu... Non Fluff je suis occupée, Fluff marche pas sur le cl...RegGnskUr",
@@ -12,12 +33,6 @@
         "solution": "7552f458be1eac1ad6fc185151588a90adb53d45",
         "creator": "Eva",
         "creatorImage": "eva.png"
-    },
-    "spotify": {
-        "name": "La playlist des copains",
-        "description": "Associe chaque liste de chanson avec la bonne personne.",
-        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
-        "creator": "Un peu tout le monde"
     },
 
     "cbd": {
@@ -54,14 +69,6 @@
         "solution": "e62d7f1eb43d87c202d2f164ba61297e71be80f4",
         "creator": "Oogarden",
         "creatorImage": "camille-s.jpg"
-    },
-    "facile": {
-        "name": "L'\u00e9tape cadeau",
-        "description": "Le mot pour passer \u00e0 l'\u00e9tape suivante est <strong>boobs<\/strong>, bonne chance. ",
-        "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg",
-        "failed": 6
     },
     "cache-cache": {
         "name": "La page cach\u00e9e",

@@ -1,0 +1,13 @@
+.pick{
+    background-color: whitesmoke;
+    padding: 0.5em 1em ;
+    border-radius: 1em ;
+    margin-right: 1em ;
+    margin-bottom: 0.5em ;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+.pick .like, .pick .dislike{
+    font-size: 1.2em ;
+    cursor: pointer;
+}
