@@ -153,9 +153,9 @@
         function newNotification($notificationId = 'Unknown', $isError = true){
             $messages = [
                 "Unknown" =>["Erreur"],
-                "goodSolution" =>["C'était vraiment facile après","Beau gosse", "Bien joué ♡"],
+                "goodSolution" =>["C'était vraiment facile après","Beau gosse", "Bien joué ♡", "Tu es si fort, et grand et beau", "Ouuuiiiii"],
                 "noSolution" =>["Merci d'indiquer une solution, une case vide ça marche pas, looser"],
-                "badSolution" =>["C'est pas ça, pourtant vraiment c'est facile", "Aucune chance que ce soit ça la solution srx", "C'est pas bon, pourtant même Fluff aurait trouvé ", "Looser", "Attend, tu étais sur de toi ?"]
+                "badSolution" =>["C'est pas ça, pourtant vraiment c'est facile", "Aucune chance que ce soit ça la solution srx", "C'est pas bon, pourtant même Fluff aurait trouvé ", "Looser", "Attend, tu étais sur de toi ?", "Non"]
             ] ;
 
             if ($isError == true) {

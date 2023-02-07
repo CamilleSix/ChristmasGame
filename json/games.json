@@ -1,8 +1,15 @@
 {
-    "roulement-clavier": {
-        "name": "Roulement de clavier",
-        "description": "Pour cette \u00e9tape il va falloir que tu... Non Fluff je suis occup\u00e9e, Fluff marche pas sur le cl...RegGnskUr",
-        "solution": "609d473f1d3f844505bcb32e31a408f274101786",
+    "durien": {
+        "name": "Lutte, Animal, Fruit",
+        "description": "Trouve la solution de cette \u00e9nigme.",
+        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "informations-precises": {
+        "name": "\u00c9chelle 1 sur 10",
+        "description": "Le mot a \u00e9t\u00e9 cach\u00e9 \u00e0 l'endroit indiqu\u00e9 sur l'image ci-dessous.",
+        "solution": "8080ff5feaeab857cb59a706a5109a99fb10ee06",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
@@ -23,8 +30,7 @@
         "description": "Le mot pour passer \u00e0 l'\u00e9tape suivante est <strong>boobs<\/strong>, bonne chance. ",
         "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
         "creator": "Camille",
-        "creatorImage": "camille-s.jpg",
-        "failed": 6
+        "creatorImage": "camille-s.jpg"
     },
     "spotify": {
         "name": "La playlist des copains",
@@ -52,13 +58,6 @@
         "solution": "89cf1eb718693e5c557aad727d0f5b3b2053bae4",
         "creator": "Anna",
         "creatorImage": "anna.png"
-    },
-    "durien": {
-        "name": "Lutte, Animal, Fruit",
-        "description": "Trouve la solution de cette \u00e9nigme.",
-        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
     },
     "pokedex": {
         "name": "Attrapez les tous",
@@ -124,13 +123,6 @@
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
-    "informations-precises": {
-        "name": "\u00c9chelle 1 sur 10",
-        "description": "Le mot a \u00e9t\u00e9 cach\u00e9 \u00e0 l'endroit indiqu\u00e9 sur l'image ci-dessous.",
-        "solution": "8080ff5feaeab857cb59a706a5109a99fb10ee06",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
     "chasse-1": {
         "name": "Mini Chasse au tr\u00e9sor 1",
         "description": "Pour commencer la chasse au tr\u00e9sor, regarde sous l'oeuf de licorne.",
@@ -142,6 +134,20 @@
         "name": "Conduisez-vous en enfants de lumi\u00e8re.",
         "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "roulement-clavier": {
+        "name": "Roulement de clavier",
+        "description": "Pour cette \u00e9tape il va falloir que tu... Non Fluff je suis occup\u00e9e, Fluff marche pas sur le cl...RegGnskUr",
+        "solution": "609d473f1d3f844505bcb32e31a408f274101786",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "fort-boyard": {
+        "name": "Comme \u00e0 Fort Boyard",
+        "description": "Trouve la solution de cette \u00e9nigme",
+        "solution": "778947735f57817c6f2fc2730a81a3ac1e4ea867",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },

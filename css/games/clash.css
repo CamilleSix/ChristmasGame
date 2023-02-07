@@ -5,3 +5,8 @@ section.game img{
 .bigFont{
     font-size: 2em ;
 }
+
+
+#mainSubmitForm{
+    display: none;
+}
