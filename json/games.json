@@ -1,9 +1,16 @@
 {
+    "roulement-clavier": {
+        "name": "Roulement de clavier",
+        "description": "Pour cette \u00e9tape il va falloir que tu... Non Fluff je suis occup\u00e9e, Fluff marche pas sur le cl...RegGnskUr",
+        "solution": "609d473f1d3f844505bcb32e31a408f274101786",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
     "luke": {
         "name": "Petite star",
         "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "0bfb8cf5f31251030f0a62f875b5ae7b3c98feb9",
-        "creator": "Frédérique et Hervé"
+        "creator": "Fr\u00e9d\u00e9rique et Herv\u00e9"
     },
     "ronces": {
         "name": "I belive I can fly",
@@ -32,21 +39,13 @@
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
-    "roulement-clavier": {
-        "name": "Roulement de clavier",
-        "description": "Pour cette étape il va falloir que tu... Non Fluff je suis occupée, Fluff marche pas sur le cl...RegGnskUr",
-        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
     "criminel": {
         "name": "Hors la loi",
-        "description": "Dans quelle ville es-tu recherché par la police ?",
+        "description": "Dans quelle ville es-tu recherch\u00e9 par la police ?",
         "solution": "7552f458be1eac1ad6fc185151588a90adb53d45",
         "creator": "Eva",
         "creatorImage": "eva.png"
     },
-
     "cbd": {
         "name": "CBD",
         "description": "Quel est le slogan du CDB ?",
