@@ -19,92 +19,10 @@
         "solution": "0bfb8cf5f31251030f0a62f875b5ae7b3c98feb9",
         "creator": "Fr\u00e9d\u00e9rique et Herv\u00e9"
     },
-    "ronces": {
-        "name": "I belive I can fly",
-        "description": "Trouve la solution de cette \u00e9nigme.",
-        "solution": "a68c5d844151d59dddb98b1f96169f93b3072386",
-        "creator": "Christelle"
-    },
-    "facile": {
-        "name": "L'\u00e9tape cadeau",
-        "description": "Le mot pour passer \u00e0 l'\u00e9tape suivante est <strong>boobs<\/strong>, bonne chance. ",
-        "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
-    "spotify": {
-        "name": "La playlist des copains",
-        "description": "Associe chaque liste de chanson avec la bonne personne.",
-        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
-        "creator": "Un peu tout le monde"
-    },
-    "amoureux": {
-        "name": "Le test du petit copain",
-        "description": "Est ce que tu connais bien ta Camille ?",
-        "solution": "331569503dfeb43b4701be7f9937a124a96ddd34",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
-    "criminel": {
-        "name": "Hors la loi",
-        "description": "Dans quelle ville es-tu recherch\u00e9 par la police ?",
-        "solution": "7552f458be1eac1ad6fc185151588a90adb53d45",
-        "creator": "Eva",
-        "creatorImage": "eva.png"
-    },
-    "cbd": {
-        "name": "CBD",
-        "description": "Quel est le slogan du CDB ?",
-        "solution": "89cf1eb718693e5c557aad727d0f5b3b2053bae4",
-        "creator": "Anna",
-        "creatorImage": "anna.png"
-    },
-    "pokedex": {
-        "name": "Attrapez les tous",
-        "description": "Trouve la solution de cette \u00e9nigme.",
-        "solution": "ee6b738e2acb87bbd8e78bd3ca92ef7ca5777776",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
-    "rateau": {
-        "name": "Tu te prends un r\u00e2teau",
-        "description": "Trouve la solution de cette \u00e9nigme.",
-        "solution": "97d52074ae91110612e20427cc9863e30e86ddf7",
-        "creator": "C\u00f4me",
-        "creatorImage": "come.png"
-    },
-    "oogarden": {
-        "name": "Entretien technique Oogarden",
-        "description": "Toi aussi deviens d\u00e9veloppeur pour Oogarden \u00e0 Amb\u00e9rieu en r\u00e9solvant cette \u00e9nigme : Quel est le num\u00e9ro de la place o\u00f9 est gar\u00e9e la Twingo d'Antoine ?",
-        "solution": "e62d7f1eb43d87c202d2f164ba61297e71be80f4",
-        "creator": "Oogarden",
-        "creatorImage": "camille-s.jpg"
-    },
-    "cache-cache": {
-        "name": "La page cach\u00e9e",
-        "description": "Il y a sur ce site, une page cach\u00e9e accessible uniquement avec l'url, Google l'a d\u00e9j\u00e0 trouv\u00e9e avant toi ! Si j'avais lu plus attentivement les recommandations sur les <a href='http:\/\/robots-txt.com\/' target='_blank'>robots.txt<\/a> j'aurais pas eu ce probl\u00e8me... ",
-        "solution": "0fabd7bb9a4c26863435df81ee0bcd72be959b73",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
     "mission-impossible": {
         "name": "Mission impossible",
         "description": "Cher agent K, un document top-secret a \u00e9t\u00e9 d\u00e9pos\u00e9 dans votre boite aux lettres.<br>Nos \u00e9quipes de sp\u00e9cialistes ne parviennent pas \u00e0 le d\u00e9chiffrer. Vous \u00eates notre dernier espoir, nous cherchons \u00e0 identifier le 14\u00e8me individu de la liste.",
         "solution": "ebcefb6cefb0841628b67114a799f39cc199d97a",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
-    "futur-dev": {
-        "name": "Expression r\u00e9guli\u00e8re",
-        "description": "Trouve la signification de cette expression r\u00e9guli\u00e8re en t'aidant <a href='https:\/\/regex101.com\/' target='_blank'>de ce site<\/a>.",
-        "solution": "3acc7c2fad2a8a737f10cb2e7446f7a98c645670",
-        "creator": "Camille",
-        "creatorImage": "camille-s.jpg"
-    },
-    "fluff": {
-        "name": "Une super belle photo de Fluff qui mange un brocoli",
-        "description": "Parce que Fluff est magnifique, qu'il aime les brocoli et qu'il m\u00e9ritait une \u00e9preuve.",
-        "solution": "c6f7a455b0e25dfce704ccd701004b8ed5c53ab3",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
@@ -116,17 +34,24 @@
         "creatorImage": "camille-s.jpg",
         "failed": 1
     },
-    "sauve-le-monde": {
-        "name": "Toi aussi, sauve le monde",
-        "description": "C'\u00e9tait un peu aussi pour le plaisir de revoir la sc\u00e8ne, j'avoue.",
-        "solution": "3196a336388df51af89e19275684b693a24cb486",
+    "chasse-1": {
+        "name": "Mini Chasse au tr\u00e9sor 1",
+        "description": "Pour commencer la chasse au tr\u00e9sor, regarde dans les poches de ton manteau bleu.",
+        "solution": "5d6671692ea1edff359596883330a4addb238405",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
-    "chasse-1": {
-        "name": "Mini Chasse au tr\u00e9sor 1",
-        "description": "Pour commencer la chasse au tr\u00e9sor, regarde sous l'oeuf de licorne.",
-        "solution": "5d6671692ea1edff359596883330a4addb238405",
+    "cbd": {
+        "name": "CBD",
+        "description": "Quel est le slogan du CDB ?",
+        "solution": "89cf1eb718693e5c557aad727d0f5b3b2053bae4",
+        "creator": "Anna",
+        "creatorImage": "anna.png"
+    },
+    "coquin": {
+        "name": "Coquin",
+        "description": "La solution est cachée dans la fente de celle qui a chaud aux fesses.",
+        "solution": "89cf1eb718693e5c557aad727d0f5b3b2053bae4",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
@@ -134,6 +59,100 @@
         "name": "Conduisez-vous en enfants de lumi\u00e8re.",
         "description": "Trouve la solution de cette \u00e9nigme.",
         "solution": "0ec6e9a809516846570500263f0c0a532fb36c5e",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "chasse-2": {
+        "name": "Mini Chasse au tr\u00e9sor 2",
+        "description": "Pour commencer la chasse au tr\u00e9sor, regarde sous l'oeuf de licorne.",
+        "solution": "5d6671692ea1edff359596883330a4addb238405",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "amoureux": {
+        "name": "Le test du petit copain",
+        "description": "Est ce que tu connais bien ta Camille ?",
+        "solution": "331569503dfeb43b4701be7f9937a124a96ddd34",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "oogarden": {
+        "name": "Entretien technique Oogarden",
+        "description": "Toi aussi deviens d\u00e9veloppeur pour Oogarden \u00e0 Amb\u00e9rieu en r\u00e9solvant cette \u00e9nigme : Quel est le num\u00e9ro de la place o\u00f9 est gar\u00e9e la Twingo d'Antoine ?",
+        "solution": "e62d7f1eb43d87c202d2f164ba61297e71be80f4",
+        "creator": "Oogarden",
+        "creatorImage": "camille-s.jpg"
+    },
+
+    "fluff": {
+        "name": "Une super belle photo de Fluff qui mange un brocoli",
+        "description": "Parce que Fluff est magnifique, qu'il aime les brocoli et qu'il m\u00e9ritait une \u00e9preuve.",
+        "solution": "c6f7a455b0e25dfce704ccd701004b8ed5c53ab3",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+
+
+    "spotify": {
+        "name": "La playlist des copains",
+        "description": "Associe chaque liste de chanson avec la bonne personne.",
+        "solution": "489936a8b44635b8dbd041f20b7c4fd6f7b0f154",
+        "creator": "Un peu tout le monde"
+    },
+
+    "criminel": {
+        "name": "Hors la loi",
+        "description": "Dans quelle ville es-tu recherch\u00e9 par la police ?",
+        "solution": "7552f458be1eac1ad6fc185151588a90adb53d45",
+        "creator": "Eva",
+        "creatorImage": "eva.png"
+    },
+    "facile": {
+        "name": "L'\u00e9tape cadeau",
+        "description": "Le mot pour passer \u00e0 l'\u00e9tape suivante est <strong>boobs<\/strong>, bonne chance. ",
+        "solution": "5afb4fdd9812febb04677ffa10e3b000c7b9d635",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "rateau": {
+        "name": "Tu te prends un r\u00e2teau",
+        "description": "Trouve la solution de cette \u00e9nigme.",
+        "solution": "97d52074ae91110612e20427cc9863e30e86ddf7",
+        "creator": "C\u00f4me",
+        "creatorImage": "come.png"
+    },
+    "cache-cache": {
+        "name": "La page cach\u00e9e",
+        "description": "Il y a sur ce site, une page cach\u00e9e accessible uniquement avec l'url, Google l'a d\u00e9j\u00e0 trouv\u00e9e avant toi ! Si j'avais lu plus attentivement les recommandations sur les <a href='http:\/\/robots-txt.com\/' target='_blank'>robots.txt<\/a> j'aurais pas eu ce probl\u00e8me... ",
+        "solution": "0fabd7bb9a4c26863435df81ee0bcd72be959b73",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "ronces": {
+        "name": "I belive I can fly",
+        "description": "Trouve la solution de cette \u00e9nigme.",
+        "solution": "a68c5d844151d59dddb98b1f96169f93b3072386",
+        "creator": "Christelle"
+    },
+    "pokedex": {
+        "name": "Attrapez les tous",
+        "description": "Trouve la solution de cette \u00e9nigme.",
+        "solution": "ee6b738e2acb87bbd8e78bd3ca92ef7ca5777776",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+
+    "futur-dev": {
+        "name": "Expression r\u00e9guli\u00e8re",
+        "description": "Trouve la signification de cette expression r\u00e9guli\u00e8re en t'aidant <a href='https:\/\/regex101.com\/' target='_blank'>de ce site<\/a>.",
+        "solution": "3acc7c2fad2a8a737f10cb2e7446f7a98c645670",
+        "creator": "Camille",
+        "creatorImage": "camille-s.jpg"
+    },
+    "sauve-le-monde": {
+        "name": "Toi aussi, sauve le monde",
+        "description": "C'\u00e9tait un peu aussi pour le plaisir de revoir la sc\u00e8ne, j'avoue.",
+        "solution": "3196a336388df51af89e19275684b693a24cb486",
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
