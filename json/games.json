@@ -114,6 +114,13 @@
         "creator": "Camille",
         "creatorImage": "camille-s.jpg"
     },
+    "kirth": {
+        "name": "J'ai fait jouer mes relations",
+        "description": "Trouve la solution de ce problème de première année de Prepa Chimie truc machin.",
+        "solution": "b8a2645298053fb62ea03e27feea6c483d3fd27e",
+        "creator": "Rémi",
+        "creatorImage": "remi-b.png"
+    },
     "rateau": {
         "name": "Tu te prends un r\u00e2teau",
         "description": "Trouve la solution de cette \u00e9nigme.",
